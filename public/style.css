@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #222525;
+    min-height: 100%;
+}
+
+#about{
+    font-size: 28px;
+}
+
+
+
+.navbar {
+    background-color: #fff;
+    height: 70px;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+
+.navbar .title {
+    padding-left: 50px;
+    color: black;
+}
+
+.header {
+    width: 100vw;
+    height: 500px;
+    background-image: cover;
+    background-position: center;
+}
+
+.bio-container {
+    margin-bottom: 20px;
+}
+
+.bio {
+    display: flex;
+    /* width: 100vw; */
+    justify-content: center;
+    font-size: 18px;
+}
+
+.title{
+    color: #b15533;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 40px;
+}
+
+.profile-container {
+    /* padding: 30px; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0px 60px 0px 60px;
+}
+
+.bio .text {
+    width: 70%;
+    /* padding: 30px; */
+}
+
+/* current work */
+
+.company {
+    font-size: 48px
+}
+
+.current-work-container {
+    padding: 20px;
+    background-color: #e2d3ba;
+}
+
+.project-container {
+    background-color: rgba(234, 170, 0, 0.74);
+    justify-content: center;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.project-box {
+    max-width: 70%;
+    min-width: 400px;
+    padding: 30px 60px 30px 60px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.project-box a{
+    color: #7c8033;
+}
+
+.project-name{
+    color: #7c8033;
+    font-size: larger;
+}
+
+/* experience */
+
+.work-main-container{
+    display: flex;
+    justify-content: center;
+}
+
+.work-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding: 0px 80px;
+    margin-bottom: 40px;
+
+}
+
+.work-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.work-box{
+    max-width: 250px;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    /* background-color: #b15533; */
+}
+
+.circle{
+    height: 20px;
+    width: 20px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    background-color: #b15533;
+}
+
+/* footer */
+
+.footer {
+    background-color: #7c8033;
+    padding-top: 20px;
+}
+
+.footer-container {
+    padding: 12px 54px;
+}
+
+.footer-row {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #7c8034;
+    align-items: center;
+}
+
+@media (max-width: 940px) {
+    .footer-row {
+        flex-direction: column;
+    }
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100px;
+}
+
+.social-icon-bk{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    padding-top: 5px;
+    margin-left: 5px;
+    align-items: center;
+    background-color: #ffffff39;
+    border-radius: 50%;
+}
+
+.icon-size {
+    color: #fff;
+    margin: 5px;
+    font-size: 1.5rem;
+    transition: font-size 0.3s ease;
+}
+
+.social-icon-bk:hover .icon-size {
+    font-size: 1.6rem;
+}
+
+.social-icon-bk:hover{
+    background-color: #ffffff45;
+    height: 42px;
+    width: 42px;
+    margin-left: 3px;
+}
+
+.cv{
+    font-size:30px;
+    padding-top: 15px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.croissant-font{
+    font-family: 'Croissant One', cursive;
+}
+
+.mail{
+    font-size: 12px;
+    color: #fff;
+}
+
+.copyright{
+    font-size: 12px;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    color: #fff;
+    padding-right: 44px;
+}
