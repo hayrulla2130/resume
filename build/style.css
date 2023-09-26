@@ -21,6 +21,7 @@ body {
 
 #about{
     font-size: 28px;
+    text-align: center;
 }
 
 
@@ -257,5 +258,5 @@ a{
     width: 100%;
     justify-content: center;
     color: #fff;
-    padding-right: 44px;
+    
 }
