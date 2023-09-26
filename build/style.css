@@ -254,7 +254,7 @@ a{
 .copyright{
     font-size: 12px;
     display: flex;
-    width: 100vw;
+    width: 100%;
     justify-content: center;
     color: #fff;
     padding-right: 44px;
