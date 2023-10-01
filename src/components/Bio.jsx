@@ -11,7 +11,7 @@ function Bio() {
                 ABOUT HAYRULLA IBADULLAYEV.
             </h3>
             <div className="bio profile-container">
-                <div className='profile-image' style={{ backgroundImage: `url(${image})` }}></div>
+                <img src={image}/>
                 <div className="text">Since my high school years, I have been actively involved in software and graphic design due to my interest in technology. During my student years, I achieved significant success in the competitions I participated in. The experiences I gained during this time made me an individual who is always one step ahead of technological developments, research-driven, and innovative.
                     <br />
                     <br />
