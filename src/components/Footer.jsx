@@ -21,7 +21,7 @@ function Footer() {
                     </div>
                     <div>
                         <h3 className="cv"><a href="https://drive.google.com/file/d/1D5LIYXpHHzSxpGXIFpBpiCLoyhjLfQ1z/view?usp=sharing" className="croissant-font">CV</a></h3>
-                        <div className="mail">zimablue77@gmail.com</div>
+                        <div className="mail">hayrulla.ibadullayev@std.yildiz.edu.tr</div>
                     </div>
                 </div>
                 <div className="copyright">
