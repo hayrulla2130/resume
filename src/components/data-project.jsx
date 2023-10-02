@@ -13,16 +13,19 @@ const projects = [
         challenging experience every time.`
     },
     {
-        name: 'ToDo List',
-        link: 'https://my-todo-list-wine.vercel.app/',
-        about: `Introducing the "To-Do List" web application, a blend of elegance, simplicity, and functionality tailored 
-        for all your task management needs. Crafted meticulously using cutting-edge HTML, CSS, and the dynamic capabilities 
-        of jQuery, this application stands out in its user-centric approach. Users can effortlessly input tasks into a 
-        user-friendly text box, which then materializes on the screen as an organized list. Every task in this list comes 
-        with a straightforward checkbox mechanism that not only allows you to mark tasks as completed but also visually 
-        strikes them through, giving a satisfying sense of accomplishment. If any task becomes obsolete or is entered by 
-        mistake, the built-in removal option can be triggered with a mere click. Overall, this application is not just a 
-        tool, but a partner ensuring you stay productive and organized in your daily endeavors.`
+        name: 'Sarga Food',
+        link: 'https://sarga-food.vercel.app/',
+        about: `Welcome to Sarga Food!
+
+        Dive into a culinary haven where flavors are cherished, traditions are celebrated, and every dish tells a story. Here at Sarga Food, our mission is simple: to bring together a community of food enthusiasts who share an insatiable passion for the culinary arts.
+        
+        Whether you're a seasoned chef, a food blogger, or someone who simply loves to explore different cuisines, Sarga Food offers a platform for all to share their favorite recipes, explore intriguing food tales, and discover the diverse world of gastronomy.
+        
+        Navigate through our mouth-watering blogs, learn more about the origins of your favorite dishes, or simply let your taste buds guide you through our extensive gallery of delicious images. And while you're here, don't forget to join our newsletter to stay updated with the latest in food trends and news.
+        
+        Celebrate the love for food, relish the tastes, and become a part of the Sarga Food community. Let’s embark on a delectable journey together!
+        
+        Happy Eating!`
     },
     {
         name: 'Keeper',
