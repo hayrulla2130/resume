@@ -39,6 +39,11 @@ const projects = [
           elegantly displayed in a grid format, adapting to various screen sizes. Finally, a gracefully rendered footer seals 
           the user experience by acknowledging the project's copyright. The Keeper isn't just another note app; it's a digital 
           extension of one's thoughts, encapsulated in a clean, web-based environment.`
+    },
+    {
+        name: 'Sargasocial',
+        link: 'https://sargasocial.vercel.app/',
+        about: `Connect with friends and the world around you on Sargasocial.`
     }
 ]
 
